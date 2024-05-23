@@ -1,0 +1,24 @@
+name: Main Branch Tests
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  trigger-remote-action:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+      
+    - name: Get Last Commit Message
+      id: commit-message
+      run: echo "::set-output name=message::$(git log -1 --pretty=%B)"
+
+    - name: Dispatch Event if Specific Word Present
+      if: contains(steps.commit-message.outputs.message, 'finish')
+      run: |
+        curl -X POST -H "Authorization: Bearer ${{ secrets.TRIGGER_SUBMISSION_FLOW_TOKEN }}" \
+        -H "Accept: application/vnd.github.v3+json" \
+        "https://api.github.com/repos/${{ secrets.TARGET_COMPETITION_VALIDATOR }}/dispatches" \
+        -d '{"event_type": "${{ secrets.TARGET_TRIGGER }}", "client_payload": {"owner": "${{ github.repository_owner }}", "repo": "${{ github.repository }}", "sha": "${{ github.sha }}"}}'

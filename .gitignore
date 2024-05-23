@@ -1,0 +1,517 @@
+# .gitignore file for C#/.NET projects
+
+# Compiled object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*~
+.nfs*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.backup
+
+# Application specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# Microsoft Azure Build Output
+csx/
+*.build.csdef
+
+# MSTest test Results
+TestResults
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Roslyn cache directories
+.vscode/.razor
+.vscode/.virtualenv
+.vscode/_tmp
+.vscode/cache
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono auto generated files
+mono_crash.*
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Rider's temporary files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/modules.xml
+.idea/artifacts
+.idea/shelf
+.idea/workspace
+.idea/misc.xml
+.idea/inspectionProfiles
+.idea/gradle.xml
+.idea/libraries
+.idea/scopes
+.idea/codeStyleSettings.xml
+.idea/encodings.xml
+.idea/bom.xml
+.idea/maven.xml
+.idea/compiler.xml
+.idea/uiDesigner.xml
+.idea/vcs.xml
+.idea/markdown-navigator.xml
+.idea/modules/
+.idea/svn.xml
+.idea/todo.xml
+.idea/vcs
+.idea/datasources.xml
+.idea/sqlDataSources.xml
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/sqlDataSources.ids
+.idea/goals.xml
+.idea/replState.xml
+.idea/datasources.xml
+.idea/dataSources.ids
+.idea/dynamic.xml
+.idea/libraryDependencies.xml
+.idea/git.xml
+.idea/encodings.xml
+.idea/contexts.xml
+.idea/goals.xml
+.idea/spring.xml
+.idea/jarRepositories.xml
+.idea/todo.xml
+.idea/diff.xml
+.idea/gitignore.xml
+.idea/spring.xml
+.idea/markdown.xml
+.idea/testFrameworks.xml
+
+# Rider logs
+.idea/vcs.xml
+.idea/vcs.xml
+.idea/logs/
+
+# Rider's workspace.xml
+.idea/workspace.xml
+
+# Rider's tasks.xml
+.idea/tasks.xml
+
+# Rider's shelf
+.idea/shelf/
+.idea/replState.xml
+
+# Rider's libxml
+.idea/libraries/
+
+# Rider's custom dictionaries
+.idea/dictionaries
+
+# Rider's gradle.xml
+.idea/gradle.xml
+
+# Rider's markdown-navigator.xml
+.idea/markdown-navigator.xml
+
+# Rider's maven.xml
+.idea/maven.xml
+
+# Rider's modules.xml
+.idea/modules.xml
+
+# Rider's workspace.xml
+.idea/workspace.xml
+
+# Rider's misc.xml
+.idea/misc.xml
+
+# Rider's .idea compiler settings
+.idea/compiler.xml
+
+# Rider's codeStyleSettings.xml
+.idea/codeStyleSettings.xml
+
+# Rider's encodings.xml
+.idea/encodings.xml
+
+# Rider's gitignore.xml
+.idea/gitignore.xml
+
+# Rider's vcs.xml
+.idea/vcs.xml
+
+# Rider's replState.xml
+.idea/replState.xml
+
+# Rider's libraryDependencies.xml
+.idea/libraryDependencies.xml
+
+# Rider's dataSources.ids
+.idea/dataSources.ids
+
+# Rider's dataSources.xml
+.idea/dataSources.xml
+
+# Rider's sqlDataSources.ids
+.idea/sqlDataSources.ids
+
+# Rider's dynamic.xml
+.idea/dynamic.xml
+
+# Rider's context.xml
+.idea/context.xml
+
+# Rider's markdown.xml
+.idea/markdown.xml
+
+# Rider's goals.xml
+.idea/goals.xml
+
+# Rider's testFrameworks.xml
+.idea/testFrameworks.xml
+
+# Rider's spring.xml
+.idea/spring.xml
+
+# Rider's encoding.xml
+.idea/encoding.xml
+
+# Rider's vcs.xml
+.idea/vcs.xml
+
+# Rider's jarRepositories.xml
+.idea/jarRepositories.xml
+
+# Rider's todo.xml
+.idea/todo.xml
+
+# Rider's diff.xml
+.idea/diff.xml
+
+# Rider's goal.xml
+.idea/goal.xml
+
+# Rider's log.xml
+.idea/log.xml
+
+# Rider's vcs.xml
+.idea/vcs.xml
+
+# Rider's vcs.xml
+.idea/vcs.xml
+
+# Rider's tasks.xml
+.idea/tasks.xml
+
+# Rider's log.xml
+.idea/log.xml
+
+# Rider's vcs.xml
+.idea/vcs.xml
+
+# Rider's workspace.xml
+.idea/workspace.xml
+
+# Rider's tasks.xml
+.idea/tasks.xml
+
+# Rider's shelf
+.idea/shelf/
+
+# Rider's replState.xml
+.idea/replState.xml
+
+# Rider's libxml
+.idea/libraries/
+
+# Rider's custom dictionaries
+.idea/dictionaries
+
+# Rider's gradle.xml
+.idea/gradle.xml
+
+# Rider's markdown-navigator.xml
+.idea/markdown-navigator.xml
+
+# Rider's maven.xml
+.idea/maven.xml
+
+# Rider's modules.xml
+.idea/modules.xml
+
+# Rider's workspace.xml
+.idea/workspace.xml
+
+# Rider's misc.xml
+.idea/misc.xml
+
+# Rider's .idea compiler settings
+.idea/compiler.xml
+
+# Rider's codeStyleSettings.xml
+.idea/codeStyleSettings.xml
+
+# Rider's encodings.xml
+.idea/encodings.xml
+
+# Rider's gitignore.xml
+.idea/gitignore.xml
+
+# Rider's vcs.xml
+.idea/vcs.xml
+
+# Rider's replState.xml
+.idea/replState.xml
+
+# Rider's libraryDependencies.xml
+.idea/libraryDependencies.xml
+
+# Rider's dataSources.ids
+.idea/dataSources.ids
+
+# Rider's dataSources.xml
+.idea/dataSources.xml
+
+# Rider's sqlDataSources.ids
+.idea/sqlDataSources.ids
+
+# Rider's dynamic.xml
+.idea/dynamic.xml
+
+# Rider's context.xml
+.idea/context.xml
+
+# Rider's markdown.xml
+.idea/markdown.xml
+
+# Rider's goals.xml
+.idea/goals.xml
+
+# Rider's testFrameworks.xml
+.idea/testFrameworks.xml
+
+# Rider's spring.xml
+.idea/spring.xml
+
+# Rider's encoding.xml
+.idea/encoding.xml
+
+# Rider's vcs.xml
+.idea/vcs.xml
+
+# Rider's jarRepositories.xml
+.idea/jarRepositories.xml
+
+# Rider's todo.xml
+.idea/todo.xml
+
+# Rider's diff.xml
+.idea/diff.xml
+
+# Rider's goal.xml
+.idea/goal.xml
+
+# Rider's log.xml
+.idea/log.xml
+
+# Rider's vcs.xml
+.idea/vcs.xml
+
+# Rider's vcs.xml
+.idea/vcs.xml
+
+# Rider's tasks.xml
+.idea/tasks.xml
+
+# Rider's log.xml
+.idea/log.xml
+
+# Rider's vcs.xml
+.idea/vcs.xml
+
+# Rider's workspace.xml
+.idea/workspace.xml
+
+# Rider's tasks.xml
+.idea/tasks.xml
+
+# Rider's shelf
+.idea/shelf/
+
+# Rider's replState.xml
+.idea/replState.xml
+
+# Rider's libxml
+.idea/libraries/
+
+# Rider's custom dictionaries
+.idea/dictionaries
+
+# Rider's gradle.xml
+.idea/gradle.xml
+
+# Rider's markdown-navigator.xml
+.idea/markdown-navigator.xml
+
+# Rider's maven.xml
+.idea/maven.xml
+
+# Rider's modules.xml
+.idea/modules.xml
+
+# Rider's workspace.xml
+.idea/workspace.xml
+
+# Rider's misc.xml
+.idea/misc.xml
+
+# Rider's .idea compiler settings
+.idea/compiler.xml
+
+# Rider's codeStyleSettings.xml
+.idea/codeStyleSettings.xml
+
+# Rider's encodings.xml
+.idea/encodings.xml
+
+# Rider's gitignore.xml
+.idea/gitignore.xml
+
+# Rider's vcs.xml
+.idea/vcs.xml
+
+# Rider's replState.xml
+.idea/replState.xml
+
+# Rider's libraryDependencies.xml
+.idea/libraryDependencies.xml
+
+# Rider's dataSources.ids
+.idea/dataSources.ids
+
+# Rider's dataSources.xml
+.idea/dataSources.xml
+
+# Rider's sqlDataSources.ids
+.idea/sqlDataSources.ids
+
+# Rider's dynamic.xml
+.idea/dynamic.xml
+
+# Rider's context.xml
+.idea/context.xml
+
+# Rider's markdown.xml
+.idea/markdown.xml
+
+# Rider's goals.xml
+.idea/goals.xml
+
+# Rider's testFrameworks.xml
+.idea/testFrameworks.xml
+
+# Rider's spring.xml
+.idea/spring.xml
+
+# Rider's encoding.xml
+.idea/encoding.xml
+
+# Rider's vcs.xml
+.idea/vcs.xml
+
+# Rider's jarRepositories.xml
+.idea/jarRepositories.xml
+
+# Rider's todo.xml
+.idea/todo.xml
+
+# Rider's diff.xml
+.idea/diff.xml
+
+# Rider's goal.xml
+.idea/goal.xml
+
+# Rider's log.xml
+.idea/log.xml
+
+# Rider's vcs.xml
+.idea/vcs.xml
+
+# Rider's
